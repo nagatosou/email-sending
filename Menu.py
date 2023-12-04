@@ -9,10 +9,10 @@ from datetime import datetime
 try:
     connection = psycopg2.connect(
         user="postgres",
-        password="@Adriamor123#",
+        password="admin",
         host="localhost",
         port="5432",
-        database="emailsander",
+        database="admin",
         options="-c client_encoding=utf-8"
     )
 
